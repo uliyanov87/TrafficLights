@@ -9,11 +9,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var switchButton: UIButton!
+    
+    @IBOutlet var redLight: UIView!
+    
+    @IBOutlet var yellowLight: UIView!
+    
+    @IBOutlet var greenLight: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        switchButton.layer.cornerRadius = 10
+        
     }
 
-
+    @IBAction func switchButtonDidTapped() {
+    }
+    
 }
 
