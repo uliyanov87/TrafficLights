@@ -16,20 +16,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" axis="vertical" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Kd8-vt-xgX">
-                                <rect key="frame" x="16" y="92" width="361" height="480"/>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Kd8-vt-xgX">
+                                <rect key="frame" x="16" y="79" width="361" height="480"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XSu-Cz-L3i">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XSu-Cz-L3i">
                                         <rect key="frame" x="105.66666666666669" y="0.0" width="150" height="150"/>
                                         <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="XSu-Cz-L3i" secondAttribute="height" multiplier="1:1" id="O9H-ib-vFK"/>
+                                        </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AAL-Kq-ZAa">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AAL-Kq-ZAa">
                                         <rect key="frame" x="105.66666666666669" y="165" width="150" height="150"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="AAL-Kq-ZAa" secondAttribute="height" multiplier="1:1" id="h8R-e1-lhg"/>
+                                        </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Z6-Gy-J1m">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Z6-Gy-J1m">
                                         <rect key="frame" x="105.66666666666669" y="330" width="150" height="150"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="0Z6-Gy-J1m" secondAttribute="height" multiplier="1:1" id="73Z-kO-4H9"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                             </stackView>
@@ -37,9 +46,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Kd8-vt-xgX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="HWS-PP-Hbi"/>
-                            <constraint firstItem="Kd8-vt-xgX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="UrT-zv-Fdf"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Kd8-vt-xgX" secondAttribute="trailing" constant="16" id="jqP-rl-oLH"/>
+                            <constraint firstItem="Kd8-vt-xgX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Zk2-TK-QZp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Kd8-vt-xgX" secondAttribute="trailing" constant="16" id="gxQ-HY-Ctv"/>
+                            <constraint firstItem="Kd8-vt-xgX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="tAm-ZO-Qoa"/>
                         </constraints>
                     </view>
                     <connections>
