@@ -8,17 +8,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet var switchButton: UIButton!
     
     @IBOutlet var redLight: UIView!
-    
     @IBOutlet var yellowLight: UIView!
-    
     @IBOutlet var greenLight: UIView!
+    @IBOutlet var switchButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        switchButton.layer.cornerRadius = 10
         
     }
 
